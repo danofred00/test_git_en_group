@@ -1,0 +1,26 @@
+@keyframes invalid {
+  0% {
+    margin-left: 0;
+    border-color: red;
+  }
+
+  50% {
+    margin-left: 20px;
+    border-color: red;
+    background-color: crimson;
+  }
+
+  100% {
+    margin-left: -20px;
+  }
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
